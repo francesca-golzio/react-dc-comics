@@ -24,3 +24,9 @@ header{
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
 }
+
+
+main {
+  background-color: var(--dc-dark-grey);
+  color: var(--dc-light);
+}
