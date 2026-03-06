@@ -12,27 +12,27 @@ export default function AppHero() {
         <div className="container d-flex justify-content-between align-items-center gap-4">
 
           <a href="#" className="hero-item d-flex">
-            <img src={buyComics} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
+            <img src={buyComics} alt="" />
             <span className="text-uppercase">digital comics</span>
           </a>
 
           <a href="#" className="hero-item d-flex">
-            <img src={buyMerchandise} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
+            <img src={buyMerchandise} alt="" />
             <span className="text-uppercase">dc merchandise</span>
           </a>
 
           <a href="#" className="hero-item d-flex">
-            <img src={buySubscription} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
+            <img src={buySubscription} alt="" />
             <span className="text-uppercase">subscription</span>
           </a>
 
           <a href="#" className="hero-item d-flex">
-            <img src={buyShopLocator} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
+            <img src={buyShopLocator} alt="" />
             <span className="text-uppercase">comic shop locator</span>
           </a>
 
           <a href="#" className="hero-item d-flex">
-            <img src={buyPowerVisa} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
+            <img src={buyPowerVisa} alt="" />
             <span className="text-uppercase">dc power visa</span>
           </a>
 
