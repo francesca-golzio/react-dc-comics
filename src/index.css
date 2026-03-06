@@ -30,3 +30,22 @@ main {
   background-color: var(--dc-dark-grey);
   color: var(--dc-light);
 }
+
+
+.hero {
+  background-color: var(--dc-primary);
+  color: var(--dc-light);
+  font-size: 0.8rem;
+  
+
+
+  img {
+      max-height: 45px;
+      max-width: 45px;
+    }
+    
+  span {
+    padding: 0.8rem;
+
+  }
+}

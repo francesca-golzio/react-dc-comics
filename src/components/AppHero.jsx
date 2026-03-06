@@ -8,33 +8,35 @@ export default function AppHero() {
 
   return (
     <>
-      <div className="container hero">
+      <div className="container-fluid hero">
+        <div className="container d-flex justify-content-between align-items-center gap-4">
 
-        <a href="#" className="hero-item">
-          <img src={buyComics} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
-          <span className="text-uppercase">digital comics</span>
-        </a>
+          <a href="#" className="hero-item d-flex">
+            <img src={buyComics} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
+            <span className="text-uppercase">digital comics</span>
+          </a>
 
-        <a href="#" className="hero-item">
-          <img src={buyMerchandise} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
-          <span className="text-uppercase">dc merchandise</span>
-        </a>
+          <a href="#" className="hero-item d-flex">
+            <img src={buyMerchandise} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
+            <span className="text-uppercase">dc merchandise</span>
+          </a>
 
-        <a href="#" className="hero-item">
-          <img src={buySubscription} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
-          <span className="text-uppercase">subscription</span>
-        </a>
+          <a href="#" className="hero-item d-flex">
+            <img src={buySubscription} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
+            <span className="text-uppercase">subscription</span>
+          </a>
 
-        <a href="#" className="hero-item">
-          <img src={buyShopLocator} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
-          <span className="text-uppercase">comic shop locator</span>
-        </a>
+          <a href="#" className="hero-item d-flex">
+            <img src={buyShopLocator} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
+            <span className="text-uppercase">comic shop locator</span>
+          </a>
 
-        <a href="#" className="hero-item">
-          <img src={buyPowerVisa} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
-          <span className="text-uppercase">dc power visa</span>
-        </a>
+          <a href="#" className="hero-item d-flex">
+            <img src={buyPowerVisa} alt="" /> {/* ⚠️ NON va... ricontrolla! */}
+            <span className="text-uppercase">dc power visa</span>
+          </a>
 
+        </div>
       </div>
     </>
   )
