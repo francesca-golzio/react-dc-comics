@@ -5,9 +5,9 @@ export default function AppHeader(){
   return(
     <>
       <header>
-        <div className="container">
+        <div className="container d-flex justify-content-between align-items-center">
           <img src={dcLogo} alt="" />
-          <nav>
+          <nav className='d-flex gap-4'>
             <a className='text-uppercase'>characters</a>
             <a className='text-uppercase onFocus'>comic</a>
             <a className='text-uppercase'>movies</a>
