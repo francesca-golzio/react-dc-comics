@@ -3,7 +3,7 @@ export default function AppMain() {
   return (
     <>
       <main>
-        Main
+        ➡️ Contenct goes here ⬅️
       </main>
     </>
   )
