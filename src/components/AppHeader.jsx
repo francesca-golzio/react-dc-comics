@@ -8,16 +8,16 @@ export default function AppHeader(){
         <div className="container">
           <img src={dcLogo} alt="" />
           <nav>
-            <a className='toUpperCase'>characters</a>
-            <a className='toUpperCase onFocus'>comic</a>
-            <a className='toUpperCase'>movies</a>
-            <a className='toUpperCase'>tv</a>
-            <a className='toUpperCase'>games</a>
-            <a className='toUpperCase'>collectibles</a>
-            <a className='toUpperCase'>videos</a>
-            <a className='toUpperCase'>fans</a>
-            <a className='toUpperCase'>news</a>
-            <a className='toUpperCase'>shop</a>
+            <a className='text-uppercase'>characters</a>
+            <a className='text-uppercase onFocus'>comic</a>
+            <a className='text-uppercase'>movies</a>
+            <a className='text-uppercase'>tv</a>
+            <a className='text-uppercase'>games</a>
+            <a className='text-uppercase'>collectibles</a>
+            <a className='text-uppercase'>videos</a>
+            <a className='text-uppercase'>fans</a>
+            <a className='text-uppercase'>news</a>
+            <a className='text-uppercase'>shop</a>
           </nav>
         </div>
       </header>
