@@ -1,2 +1,11 @@
-@import url('bootstrap')
+@import url('bootstrap');
+
+
+:root {
+  --dc-light: #fff;
+  --dc-dark-grey: #1c1c1c;
+  --dc-grey: #303030;
+  --dc-primary: #0282F9;
+}
+
 
