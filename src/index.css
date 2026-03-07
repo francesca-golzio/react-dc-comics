@@ -2,14 +2,20 @@
 
 
 :root {
-  --dc-light: #fff;
   --dc-dark-grey: #1c1c1c;
   --dc-grey: #303030;
+  --dc-light-grey: #8B8B77;
+  --dc-light: #fff;
   --dc-primary: #0282F9;
 }
 
 .onFocus{
   border-bottom: 8px solid var(--dc-primary);
+}
+
+.bg-comics {
+  background-image: url('../public/footer-bg.jpg');
+  object-fit: cover;
 }
 
 a {
@@ -47,5 +53,51 @@ main {
   span {
     padding: 0.8rem;
 
+  }
+}
+
+
+footer {
+  background-color: var(--dc-grey);
+  color: var(--dc-light-grey);
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footerContainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div.followUs {
+      
+      display: flex;
+      gap: 1.2rem;
+      
+      span{
+        color: var(--dc-primary);
+        font-weight: 700;        
+      }
+      
+      div > a {
+        padding: 0.5rem;
+      }
+
+    }
+  }
+
+  button {
+    background-color: transparent;
+    border: 2px solid var(--dc-primary);
+    color: var(--dc-light);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 1rem;
+    
   }
 }
