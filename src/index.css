@@ -9,6 +9,10 @@
   --dc-primary: #0282F9;
 }
 
+body {
+  font-family: 'Open Sans Variable', sans-serif;
+}
+
 .onFocus{
   border-bottom: 8px solid var(--dc-primary);
 }
