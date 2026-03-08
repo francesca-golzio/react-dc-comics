@@ -61,7 +61,7 @@ footer {
   color: var(--dc-light-grey);
   
   .bg-comics {
-    background-image: url('../public/footer-bg.jpg');
+    background-image: url('/footer-bg.jpg');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    background-image: url('../public/dc-logo-bg.png');
+    background-image: url('/dc-logo-bg.png');
     background-position: right center;
     background-repeat: no-repeat, no-repeat;
 
