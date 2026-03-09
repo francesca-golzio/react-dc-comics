@@ -13,7 +13,7 @@ body {
   font-family: 'Open Sans Variable', sans-serif;
 }
 
-.onFocus{
+.onFocus {
   border-bottom: 8px solid var(--dc-primary);
 }
 
@@ -23,13 +23,20 @@ a {
 }
 
 
-header{
+header {
   background-color: var(--dc-light);
   font-weight: 700;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
 }
 
+.top_jumbotron {
+  height: 400px;
+  background-image: url('/jumbotron.jpg');
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 
 main {
   background-color: var(--dc-dark-grey);
@@ -41,17 +48,17 @@ main {
   background-color: var(--dc-primary);
   color: var(--dc-light);
   font-size: 0.8rem;
-  
-  
-  
+
+
+
   img {
     max-height: 45px;
     max-width: 45px;
   }
-  
+
   span {
     padding: 0.8rem;
-    
+
   }
 }
 
@@ -59,17 +66,17 @@ main {
 footer {
   background-color: var(--dc-grey);
   color: var(--dc-light-grey);
-  
+
   .bg-comics {
     background-image: url('/footer-bg.jpg');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 
-  }  
-  
+  }
+
   .topFooterContainer {
-    
+
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -85,7 +92,7 @@ footer {
       h4 {
         color: var(--dc-light);
       }
-      
+
       div {
         text-wrap: none;
       }
@@ -97,10 +104,10 @@ footer {
       padding: 0;
     }
 
-    img{
+    img {
       height: 130%;
       aspect-ratio: 1;
-      overflow:hidden
+      overflow: hidden
     }
 
   }
@@ -116,13 +123,13 @@ footer {
       display: flex;
       align-items: center;
       gap: 1.2rem;
-      
-      span{
+
+      span {
         color: var(--dc-primary);
-        font-weight: 700;        
+        font-weight: 700;
       }
-      
-      div > a {
+
+      div>a {
         padding: 0.5rem;
       }
 
@@ -136,6 +143,6 @@ footer {
     font-size: 0.8rem;
     font-weight: 600;
     padding: 1rem;
-    
+
   }
 }
