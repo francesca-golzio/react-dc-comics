@@ -144,12 +144,13 @@ footer {
     background-repeat: no-repeat, no-repeat;
 
     nav {
-      padding: 2rem;
+      padding: 3rem;
       display: flex;
       gap: 1.5rem;
 
       h4 {
         color: var(--dc-light);
+        font-weight: 700;
       }
 
       div {
@@ -177,6 +178,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.3rem;
 
     div.followUs {
       display: flex;
@@ -197,10 +199,10 @@ footer {
 
   button {
     background-color: transparent;
-    border: 2px solid var(--dc-primary);
+    border: 3px solid var(--dc-primary);
     color: var(--dc-light);
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
     padding: 1rem;
 
   }
