@@ -7,12 +7,12 @@ export default function AppMain() {
       <main>
         <div className="container">
           <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 rounded-0 comic_card_deck">
-            {comics.map((item) => {
+            {comics.map((comic) => {
               return (
-                <div className="col">
+                <div className="col" key={comic.id}>
                   <div className="card-body comic_card_body">
-                    <img src='https://picsum.photos/id/237/200/300' className="card-img-top comic_card_img" />
-                    <div className="col text-uppercase card-title">Title</div>
+                    <img src={comic.thumb} className="card-img-top comic_card_img" />
+                    <div className="col text-uppercase card-title">{comic.series}</div>
                   </div>
                 </div>
               )
