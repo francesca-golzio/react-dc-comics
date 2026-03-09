@@ -41,6 +41,42 @@ header {
 main {
   background-color: var(--dc-dark-grey);
   color: var(--dc-light);
+
+  .comic_card_deck {
+
+    .comic_card_body {
+
+      max-width: 250px;
+      height: 250px;
+      padding: 4rem 1rem 0 1rem;
+      margin: 0 auto;
+
+      .comic_card_img {
+        padding-bottom: 1.5rem;
+        height: 100%;
+
+      }
+
+    }
+
+  }
+
+  .more_comics {
+
+    text-align: center;
+
+    .more_comics_btn {
+      background-color: var(--dc-primary);
+      color: var(--dc-light);
+      padding: 0.8rem 5rem;
+      margin-bottom: 1.8rem;
+      text-transform: uppercase;
+      outline: none;
+      border-style: none;
+      font-weight: 600;
+    }
+  }
+
 }
 
 
