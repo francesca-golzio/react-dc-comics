@@ -43,12 +43,14 @@ main {
   color: var(--dc-light);
 
   .comic_card_deck {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
     .comic_card_body {
 
       max-width: 280px;
       height: 280px;
-      padding-top: 4rem;
+      padding: 2rem 0;
       margin: 0 auto;
 
       .comic_card_img {
@@ -68,6 +70,7 @@ main {
   .more_comics {
 
     text-align: center;
+    padding-top: 2rem;
 
     .more_comics_btn {
       background-color: var(--dc-primary);
