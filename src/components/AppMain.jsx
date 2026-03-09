@@ -5,7 +5,8 @@ export default function AppMain() {
   return (
     <>
       <main>
-        <div className="container">
+        <div className="container main_container">
+          <div className="current_series text-uppercase">current series</div>
           <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 rounded-0 comic_card_deck">
             {comics.map((comic) => {
               return (
