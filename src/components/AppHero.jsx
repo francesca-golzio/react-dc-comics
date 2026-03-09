@@ -9,33 +9,35 @@ export default function AppHero() {
   return (
     <>
       <div className="container-fluid hero">
-        <div className="container d-flex justify-content-between align-items-center gap-4">
+        <div className="container d-flex justify-content-center">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 w-100 p-5">
 
-          <a href="#" className="hero-item d-flex">
-            <img src={buyComics} alt="" />
-            <span className="text-uppercase">digital comics</span>
-          </a>
+            <a href="#" className="hero-item col d-flex justify-content-center">
+              <img src={buyComics} alt="" />
+              <div className="text-uppercase">digital comics</div>
+            </a>
 
-          <a href="#" className="hero-item d-flex">
-            <img src={buyMerchandise} alt="" />
-            <span className="text-uppercase">dc merchandise</span>
-          </a>
+            <a href="#" className="hero-item col d-flex justify-content-center">
+              <img src={buyMerchandise} alt="" />
+              <div className="text-uppercase">dc merchandise</div>
+            </a>
 
-          <a href="#" className="hero-item d-flex">
-            <img src={buySubscription} alt="" />
-            <span className="text-uppercase">subscription</span>
-          </a>
+            <a href="#" className="hero-item col d-flex justify-content-center">
+              <img src={buySubscription} alt="" />
+              <div className="text-uppercase">subscription</div>
+            </a>
 
-          <a href="#" className="hero-item d-flex">
-            <img src={buyShopLocator} alt="" />
-            <span className="text-uppercase">comic shop locator</span>
-          </a>
+            <a href="#" className="hero-item col d-flex justify-content-center">
+              <img src={buyShopLocator} alt="" />
+              <div className="text-uppercase">comic shop locator</div>
+            </a>
 
-          <a href="#" className="hero-item d-flex">
-            <img src={buyPowerVisa} alt="" />
-            <span className="text-uppercase">dc power visa</span>
-          </a>
+            <a href="#" className="hero-item col d-flex justify-content-center">
+              <img src={buyPowerVisa} alt="" />
+              <div className="text-uppercase">dc power visa</div>
+            </a>
 
+          </div>
         </div>
       </div>
     </>

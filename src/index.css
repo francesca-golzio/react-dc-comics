@@ -93,14 +93,12 @@ main {
   color: var(--dc-light);
   font-size: 0.8rem;
 
-
-
   img {
     max-height: 45px;
     max-width: 45px;
   }
 
-  span {
+  a > div {
     padding: 0.8rem;
 
   }
