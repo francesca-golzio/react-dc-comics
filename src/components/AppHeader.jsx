@@ -59,7 +59,7 @@ export default function AppHeader() {
     <>
       <header>
         <div className="container d-flex justify-content-between align-items-center">
-          <img src={dcLogo} alt="logo" />
+          <img src={dcLogo} alt="logo" id="logo" />
           <nav className='d-flex gap-4'>
           {navMenu.map(voice => {return (<a href={voice.url} className='text-uppercase' key={voice.id}>{voice.menuLabel}</a>)})}
           </nav>

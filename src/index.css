@@ -29,6 +29,10 @@ header {
   font-weight: 700;
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
+
+  img#logo {
+    height: 80px;
+  }
 }
 
 .top_jumbotron {
