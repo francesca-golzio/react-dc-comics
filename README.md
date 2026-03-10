@@ -42,5 +42,3 @@ Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riu
 **Nota:** Le immagini potrebbero variare leggermente rispetto a quelle nello screenshot.
 
 ### Bonus: Provare a centralizzare i dati facendoli partire tutti da `App.jsx` e passandoli via prop ai vari componenti che li necessitano
-
-Confermate lettura come al solito <:babyyoda:1374696912799924234>
