@@ -1,4 +1,5 @@
 import comics from '../assets/dati/comics'
+import AppComicCard from './AppComicCard'
 
 export default function AppMain() {
 
@@ -8,7 +9,8 @@ export default function AppMain() {
         <div className="container main_container">
           <div className="current_series text-uppercase">current series</div>
           <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 rounded-0 comic_card_deck">
-            {comics.map((comic) => {
+            <AppComicCard />
+{/*             {comics.map((comic) => {
               return (
                 <div className="col" key={comic.id}>
                   <div className="card-body comic_card_body">
@@ -18,7 +20,7 @@ export default function AppMain() {
                 </div>
               )
             }
-            )}
+            )} */}
           </div>
           <div className='more_comics'>
             <button className='more_comics_btn'>load more</button>
